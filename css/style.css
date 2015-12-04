@@ -85,29 +85,24 @@ footer{
 #filters {
     margin:1%;
     padding:0;
+	
 }
-
-    #filters li {
-        float:left;
+#filters li {
+	float:left;
         list-style-type:none;
-    }
-    
-    #filters li span {
+}
+#filters li span {
         display: block;
         padding:5px 20px;       
         text-decoration:none;
         color:#666;
         cursor: pointer;
-    }
-    
-    #filters li span.active {
+}
+#filters li span.active {
         background: #12d400;
         color:#fff;
         border-radius:10px;
-    }
- 
-
- 
+}
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -118,46 +113,41 @@ footer{
     float:left;
     overflow:hidden;
 }
-
-    .portfolio-wrapper {
+.portfolio-wrapper {
         overflow:hidden;
         position: relative !important;
         background: #666;
         cursor:pointer;
-    }
-
-    .portfolio img {
+}
+.portfolio img {
         max-width:100%;
         position: relative;
-    }
-    
-    .portfolio .label {
+}
+.portfolio .label {
         position: absolute;
         width: 100%;
         height:40px;
         bottom:-40px;
-    }
+}
 
-        .portfolio .label-bg {
-            background: #e95a44;
-            width: 100%;
-            height:100%;
-            position: absolute;
-            top:0;
-            left:0;
-        }
-    
-        .portfolio .label-text {
-            color:#fff;
-            position: relative;
-            z-index:500;
-            padding:5px 8px;
-        }
-            
-            .portfolio .text-category {
-                display:block;
-                font-size:9px;
-            }
+.portfolio .label-bg {
+	background: #e95a44;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.portfolio .label-text {
+	color:#fff;
+	position: relative;
+	z-index:500;
+	padding:5px 8px;
+}
+.portfolio .text-category {
+	display:block;
+	font-size:9px;
+}
     
     
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -211,10 +201,13 @@ footer{
   height: 0; }
 .row:after,
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 .row,
 .clearfix {
-  zoom: 1; }
+  zoom: 1; 
+}
 
 .clear {
   clear: both;
+}
